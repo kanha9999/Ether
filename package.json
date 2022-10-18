@@ -1,0 +1,28 @@
+{
+  "name": "ether",
+  "version": "1.0.0",
+  "main": "main.js",
+  "bin":  "app.js",
+  "scripts": {
+    "main":"tsc && node ./dist/main.js",
+    "Receipt": "tsc && node ./dist/Receipt",
+    "Check": "tsc && node ./dist/Check",
+    "dev": "tsc && node ./dist/index.js",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kanha <muonkanharoth@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "dotenv": "^16.0.3",
+    "ether": "^0.0.9",
+    "ethers": "^5.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "typescript": "^4.8.4"
+  },
+  "description": ""
+}
